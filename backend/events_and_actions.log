@@ -1,0 +1,549 @@
+2025-10-04 10:54:30,902 INFO INCOMING_EVENT {"userId":"u1","elementId":"submit","timestamp":1759555470.859225,"eventType":"click","metadata":{}}
+2025-10-04 10:54:31,913 INFO INCOMING_EVENT {"userId":"u1","elementId":"submit","timestamp":1759555471.9077532,"eventType":"click","metadata":{}}
+2025-10-04 10:54:32,951 INFO INCOMING_EVENT {"userId":"u1","elementId":"submit","timestamp":1759555472.9458246,"eventType":"click","metadata":{}}
+2025-10-04 10:54:32,969 INFO EXECUTE_ACTION: {"action": "restart_service", "triggered_by": {"userId": "u1", "elementId": "submit", "timestamp": 1759555472.9458246, "eventType": "click", "metadata": {}}, "time": 1759555472.969534}
+2025-10-04 10:54:33,951 ERROR Failed to restart service: Command '['powershell', 'Restart-Service', 'Spooler']' returned non-zero exit status 1.
+2025-10-04 14:57:23,673 INFO INCOMING_EVENT {"userId":"test-user","elementId":"btn","timestamp":1759589844.0,"eventType":"click","metadata":{}}
+2025-10-04 15:07:23,060 INFO INCOMING_BATCH user=test-user page=/ events=2
+2025-10-04 15:10:03,523 INFO INCOMING_BATCH user=test-user page=/ events=2
+2025-10-04 15:33:05,667 INFO INCOMING_BATCH user=test-user page=/ events=2
+2025-10-04 15:33:18,545 INFO INCOMING_BATCH user=rage-test page=/ events=3
+2025-10-04 15:33:18,569 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "rage-test", "page": "/", "signals": ["rage_click"]}, "time": 1759572198.5690606}
+2025-10-04 16:33:50,150 INFO INCOMING_BATCH user=test page=None events=1
+2025-10-04 17:07:26,566 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=6
+2025-10-04 17:07:26,579 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=6
+2025-10-04 17:07:40,217 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=4
+2025-10-04 17:07:40,221 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=4
+2025-10-04 17:07:41,566 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=4
+2025-10-04 17:07:41,570 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=4
+2025-10-04 17:07:44,581 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=10
+2025-10-04 17:07:44,611 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=10
+2025-10-04 17:07:44,612 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-lqbmmn3", "page": "/", "signals": ["rage_click", "long_hover"]}, "time": 1759577864.6122327}
+2025-10-04 17:07:44,616 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-lqbmmn3", "page": "/", "signals": ["rage_click", "long_hover"]}, "time": 1759577864.6164806}
+2025-10-04 17:07:47,571 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=10
+2025-10-04 17:07:47,576 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=10
+2025-10-04 17:07:50,566 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=12
+2025-10-04 17:07:50,569 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=12
+2025-10-04 17:07:53,568 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=47
+2025-10-04 17:07:53,573 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=47
+2025-10-04 17:07:56,576 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=7
+2025-10-04 17:07:56,580 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=7
+2025-10-04 17:07:59,567 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=34
+2025-10-04 17:07:59,573 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=34
+2025-10-04 17:08:02,576 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=24
+2025-10-04 17:08:02,583 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=24
+2025-10-04 17:08:02,584 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-lqbmmn3", "page": "/", "signals": ["cursor_thrash", "rage_click"]}, "time": 1759577882.5843983}
+2025-10-04 17:08:02,590 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-lqbmmn3", "page": "/", "signals": ["cursor_thrash", "rage_click"]}, "time": 1759577882.5901868}
+2025-10-04 17:08:05,567 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=33
+2025-10-04 17:08:05,572 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=33
+2025-10-04 17:08:05,573 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-lqbmmn3", "page": "/", "signals": ["rage_click"]}, "time": 1759577885.5732775}
+2025-10-04 17:08:05,579 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-lqbmmn3", "page": "/", "signals": ["rage_click"]}, "time": 1759577885.579028}
+2025-10-04 17:08:08,580 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=30
+2025-10-04 17:08:08,585 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=30
+2025-10-04 17:08:08,585 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-lqbmmn3", "page": "/", "signals": ["rage_click"]}, "time": 1759577888.585699}
+2025-10-04 17:08:08,591 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-lqbmmn3", "page": "/", "signals": ["rage_click"]}, "time": 1759577888.5909507}
+2025-10-04 17:08:11,573 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=45
+2025-10-04 17:08:11,578 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=45
+2025-10-04 17:08:11,578 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-lqbmmn3", "page": "/", "signals": ["rage_click", "long_hover", "cursor_thrash"]}, "time": 1759577891.5786011}
+2025-10-04 17:08:11,581 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-lqbmmn3", "page": "/", "signals": ["rage_click", "long_hover", "cursor_thrash"]}, "time": 1759577891.5814679}
+2025-10-04 17:08:14,574 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=27
+2025-10-04 17:08:14,580 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=27
+2025-10-04 17:08:14,581 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-lqbmmn3", "page": "/", "signals": ["rage_click", "cursor_thrash"]}, "time": 1759577894.581138}
+2025-10-04 17:08:14,588 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-lqbmmn3", "page": "/", "signals": ["rage_click", "cursor_thrash"]}, "time": 1759577894.5880349}
+2025-10-04 17:08:17,578 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=12
+2025-10-04 17:08:17,583 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=12
+2025-10-04 17:08:20,562 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=12
+2025-10-04 17:08:20,564 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=12
+2025-10-04 17:08:23,566 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=20
+2025-10-04 17:08:23,573 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=20
+2025-10-04 17:08:26,565 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=5
+2025-10-04 17:08:26,567 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=5
+2025-10-04 17:08:32,574 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=5
+2025-10-04 17:08:32,576 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=5
+2025-10-04 17:08:35,568 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=4
+2025-10-04 17:08:35,570 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=4
+2025-10-04 17:08:38,575 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=2
+2025-10-04 17:08:38,577 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=2
+2025-10-04 17:08:41,577 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=2
+2025-10-04 17:08:41,580 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=2
+2025-10-04 17:08:44,563 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=2
+2025-10-04 17:08:44,566 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=2
+2025-10-04 17:08:50,578 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=2
+2025-10-04 17:08:50,585 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=2
+2025-10-04 17:15:23,588 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=4
+2025-10-04 17:15:23,593 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=4
+2025-10-04 17:15:26,576 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=5
+2025-10-04 17:15:26,580 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=5
+2025-10-04 17:15:29,573 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=2
+2025-10-04 17:15:29,576 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=2
+2025-10-04 17:15:32,580 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=2
+2025-10-04 17:15:32,585 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=2
+2025-10-04 17:25:56,580 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=5
+2025-10-04 17:25:56,586 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=5
+2025-10-04 17:25:59,571 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=19
+2025-10-04 17:25:59,576 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=19
+2025-10-04 17:26:02,571 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=25
+2025-10-04 17:26:02,574 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=25
+2025-10-04 17:26:05,569 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=46
+2025-10-04 17:26:05,575 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=46
+2025-10-04 17:26:08,570 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=9
+2025-10-04 17:26:08,575 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=9
+2025-10-04 17:26:14,569 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=11
+2025-10-04 17:26:14,575 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=11
+2025-10-04 17:26:17,575 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=19
+2025-10-04 17:26:17,581 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=19
+2025-10-04 17:26:17,586 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-lqbmmn3", "page": "/", "signals": ["rage_click"]}, "time": 1759578977.5860512}
+2025-10-04 17:26:18,640 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=8
+2025-10-04 17:26:18,646 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=8
+2025-10-04 17:26:18,646 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-lqbmmn3", "page": "/", "signals": ["cursor_thrash", "rage_click"]}, "time": 1759578978.6465187}
+2025-10-04 17:26:18,650 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-lqbmmn3", "page": "/", "signals": ["cursor_thrash", "rage_click"]}, "time": 1759578978.6508245}
+2025-10-04 17:26:20,578 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=6
+2025-10-04 17:26:20,582 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=6
+2025-10-04 17:26:20,582 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-lqbmmn3", "page": "/", "signals": ["rage_click"]}, "time": 1759578980.582653}
+2025-10-04 17:26:20,585 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-lqbmmn3", "page": "/", "signals": ["rage_click"]}, "time": 1759578980.585587}
+2025-10-04 17:26:23,581 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=13
+2025-10-04 17:26:23,589 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=13
+2025-10-04 17:26:26,574 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=2
+2025-10-04 17:26:26,578 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=2
+2025-10-04 17:26:29,574 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=2
+2025-10-04 17:26:29,578 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=2
+2025-10-04 17:29:30,160 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=1
+2025-10-04 17:29:30,161 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=1
+2025-10-04 17:31:19,732 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=1
+2025-10-04 17:31:19,736 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=1
+2025-10-04 17:31:42,154 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=1
+2025-10-04 17:31:42,157 INFO INCOMING_BATCH user=anon-lqbmmn3 page=/ events=1
+2025-10-04 17:47:14,620 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=11
+2025-10-04 17:47:14,624 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=11
+2025-10-04 17:47:17,579 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=3
+2025-10-04 17:47:17,582 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=3
+2025-10-04 17:47:20,574 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=3
+2025-10-04 17:47:20,577 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=3
+2025-10-04 17:47:23,576 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=17
+2025-10-04 17:47:23,579 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=17
+2025-10-04 17:47:26,578 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=27
+2025-10-04 17:47:26,581 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=27
+2025-10-04 17:47:29,580 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=42
+2025-10-04 17:47:29,595 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=42
+2025-10-04 17:47:29,598 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-rt0z0f4", "page": "/", "signals": ["cursor_thrash", "rage_click"]}, "time": 1759580249.5988173}
+2025-10-04 17:47:29,600 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-rt0z0f4", "page": "/", "signals": ["cursor_thrash", "rage_click"]}, "time": 1759580249.599982}
+2025-10-04 17:47:32,584 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=50
+2025-10-04 17:47:32,587 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=50
+2025-10-04 17:47:32,587 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-rt0z0f4", "page": "/", "signals": ["rage_click"]}, "time": 1759580252.5877848}
+2025-10-04 17:47:32,590 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-rt0z0f4", "page": "/", "signals": ["rage_click"]}, "time": 1759580252.590444}
+2025-10-04 17:47:35,583 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=38
+2025-10-04 17:47:35,587 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=38
+2025-10-04 17:47:35,587 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-rt0z0f4", "page": "/", "signals": ["rage_click", "long_hover", "cursor_thrash"]}, "time": 1759580255.5878515}
+2025-10-04 17:47:35,590 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-rt0z0f4", "page": "/", "signals": ["rage_click", "long_hover", "cursor_thrash"]}, "time": 1759580255.590099}
+2025-10-04 17:47:38,572 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=25
+2025-10-04 17:47:38,576 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=25
+2025-10-04 17:47:38,577 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-rt0z0f4", "page": "/", "signals": ["cursor_thrash", "rage_click"]}, "time": 1759580258.5769281}
+2025-10-04 17:47:38,578 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-rt0z0f4", "page": "/", "signals": ["cursor_thrash", "rage_click"]}, "time": 1759580258.5786705}
+2025-10-04 17:47:39,923 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=20
+2025-10-04 17:47:39,926 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=20
+2025-10-04 17:47:39,926 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-rt0z0f4", "page": "/", "signals": ["rage_click", "cursor_thrash", "long_hover"]}, "time": 1759580259.9263704}
+2025-10-04 17:47:39,929 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-rt0z0f4", "page": "/", "signals": ["rage_click", "cursor_thrash", "long_hover"]}, "time": 1759580259.9289176}
+2025-10-04 17:47:40,199 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=2
+2025-10-04 17:47:40,201 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=2
+2025-10-04 17:47:40,201 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-rt0z0f4", "page": "/", "signals": ["rage_click"]}, "time": 1759580260.2011142}
+2025-10-04 17:47:40,202 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-rt0z0f4", "page": "/", "signals": ["rage_click"]}, "time": 1759580260.2025244}
+2025-10-04 17:47:40,374 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=2
+2025-10-04 17:47:40,377 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=2
+2025-10-04 17:47:40,378 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-rt0z0f4", "page": "/", "signals": ["rage_click"]}, "time": 1759580260.3786254}
+2025-10-04 17:47:40,378 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-rt0z0f4", "page": "/", "signals": ["rage_click"]}, "time": 1759580260.3787694}
+2025-10-04 17:47:40,642 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=2
+2025-10-04 17:47:40,664 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=2
+2025-10-04 17:47:40,665 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-rt0z0f4", "page": "/", "signals": ["rage_click"]}, "time": 1759580260.665857}
+2025-10-04 17:47:40,666 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-rt0z0f4", "page": "/", "signals": ["rage_click"]}, "time": 1759580260.6660109}
+2025-10-04 17:47:44,578 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=18
+2025-10-04 17:47:44,581 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=18
+2025-10-04 17:47:47,574 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=11
+2025-10-04 17:47:47,577 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=11
+2025-10-04 17:47:50,585 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=4
+2025-10-04 17:47:50,588 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=4
+2025-10-04 17:48:05,577 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=5
+2025-10-04 17:48:05,580 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=5
+2025-10-04 17:48:08,581 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=8
+2025-10-04 17:48:08,584 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=8
+2025-10-04 17:48:11,574 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=2
+2025-10-04 17:48:11,577 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=2
+2025-10-04 17:48:14,587 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=2
+2025-10-04 17:48:14,589 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=2
+2025-10-04 17:48:42,161 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=1
+2025-10-04 17:48:42,163 INFO INCOMING_BATCH user=anon-rt0z0f4 page=/ events=1
+2025-10-04 17:52:31,088 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=9
+2025-10-04 17:52:31,100 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=9
+2025-10-04 17:52:34,095 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=5
+2025-10-04 17:52:34,099 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=5
+2025-10-04 17:52:37,094 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=26
+2025-10-04 17:52:37,107 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=26
+2025-10-04 17:52:37,110 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["cursor_thrash", "rage_click"]}, "time": 1759580557.1101167}
+2025-10-04 17:52:37,111 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["cursor_thrash", "rage_click"]}, "time": 1759580557.1110003}
+2025-10-04 17:52:40,085 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=38
+2025-10-04 17:52:40,089 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=38
+2025-10-04 17:52:40,090 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click", "cursor_thrash", "long_hover"]}, "time": 1759580560.0903454}
+2025-10-04 17:52:40,095 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click", "cursor_thrash", "long_hover"]}, "time": 1759580560.0956185}
+2025-10-04 17:52:45,788 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=5
+2025-10-04 17:52:45,791 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=5
+2025-10-04 17:52:49,095 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=11
+2025-10-04 17:52:49,100 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=11
+2025-10-04 17:52:49,101 INFO EXECUTE_ACTION (simulated): {"action": "enable_help_tooltip", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["long_hover", "cursor_thrash"]}, "time": 1759580569.1009738}
+2025-10-04 17:52:49,103 INFO EXECUTE_ACTION (simulated): {"action": "enable_help_tooltip", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["long_hover", "cursor_thrash"]}, "time": 1759580569.103324}
+2025-10-04 17:52:52,084 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=46
+2025-10-04 17:52:52,088 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=46
+2025-10-04 17:52:55,090 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=5
+2025-10-04 17:52:55,094 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=5
+2025-10-04 17:52:55,094 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["cursor_thrash", "rage_click"]}, "time": 1759580575.0942295}
+2025-10-04 17:52:55,096 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["cursor_thrash", "rage_click"]}, "time": 1759580575.0964258}
+2025-10-04 17:52:58,084 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=45
+2025-10-04 17:52:58,088 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=45
+2025-10-04 17:52:58,089 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["cursor_thrash", "long_hover", "rage_click"]}, "time": 1759580578.0891259}
+2025-10-04 17:52:58,092 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["cursor_thrash", "long_hover", "rage_click"]}, "time": 1759580578.0921805}
+2025-10-04 17:52:59,454 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=31
+2025-10-04 17:52:59,457 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=31
+2025-10-04 17:52:59,457 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click", "long_hover", "cursor_thrash"]}, "time": 1759580579.4576268}
+2025-10-04 17:52:59,461 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click", "long_hover", "cursor_thrash"]}, "time": 1759580579.4615934}
+2025-10-04 17:53:00,164 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=3
+2025-10-04 17:53:00,167 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=3
+2025-10-04 17:53:00,167 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580580.1678703}
+2025-10-04 17:53:00,170 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580580.170358}
+2025-10-04 17:53:00,381 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:00,384 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:00,384 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580580.3844023}
+2025-10-04 17:53:00,386 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580580.3863509}
+2025-10-04 17:53:00,681 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:00,684 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:00,684 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580580.6842747}
+2025-10-04 17:53:00,685 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580580.6858244}
+2025-10-04 17:53:00,862 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:00,864 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:00,864 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580580.8646808}
+2025-10-04 17:53:00,866 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580580.866379}
+2025-10-04 17:53:01,048 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:01,051 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:01,051 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580581.051578}
+2025-10-04 17:53:01,053 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580581.0530238}
+2025-10-04 17:53:01,228 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:01,231 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:01,232 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580581.232072}
+2025-10-04 17:53:01,234 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580581.2341783}
+2025-10-04 17:53:01,421 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:01,424 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:01,424 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580581.424219}
+2025-10-04 17:53:01,426 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580581.4260964}
+2025-10-04 17:53:01,644 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:01,646 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:01,646 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580581.646671}
+2025-10-04 17:53:01,647 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580581.6479118}
+2025-10-04 17:53:02,405 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=1
+2025-10-04 17:53:02,408 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=1
+2025-10-04 17:53:02,408 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580582.408497}
+2025-10-04 17:53:02,410 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580582.410572}
+2025-10-04 17:53:02,576 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:02,578 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:02,578 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580582.5784168}
+2025-10-04 17:53:02,579 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580582.5798335}
+2025-10-04 17:53:02,749 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:02,751 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:02,752 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580582.7525713}
+2025-10-04 17:53:02,752 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580582.7528565}
+2025-10-04 17:53:02,957 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:02,959 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:02,959 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580582.9598527}
+2025-10-04 17:53:02,961 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580582.9612834}
+2025-10-04 17:53:03,172 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:03,174 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:03,174 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580583.174907}
+2025-10-04 17:53:03,177 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580583.1775153}
+2025-10-04 17:53:03,390 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:03,393 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=2
+2025-10-04 17:53:03,393 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580583.393573}
+2025-10-04 17:53:03,395 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click"]}, "time": 1759580583.3954165}
+2025-10-04 17:53:07,089 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=30
+2025-10-04 17:53:07,093 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=30
+2025-10-04 17:53:07,095 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["long_hover", "cursor_thrash", "rage_click"]}, "time": 1759580587.0955431}
+2025-10-04 17:53:07,096 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["long_hover", "cursor_thrash", "rage_click"]}, "time": 1759580587.0960295}
+2025-10-04 17:53:10,089 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=35
+2025-10-04 17:53:10,094 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=35
+2025-10-04 17:53:10,094 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click", "long_hover", "cursor_thrash"]}, "time": 1759580590.0943747}
+2025-10-04 17:53:10,096 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-eo9dph9", "page": "/", "signals": ["rage_click", "long_hover", "cursor_thrash"]}, "time": 1759580590.0965552}
+2025-10-04 17:53:13,096 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=21
+2025-10-04 17:53:13,099 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=21
+2025-10-04 17:53:16,093 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=19
+2025-10-04 17:53:16,096 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=19
+2025-10-04 17:53:19,088 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=6
+2025-10-04 17:53:19,091 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=6
+2025-10-04 17:53:22,093 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=6
+2025-10-04 17:53:22,096 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=6
+2025-10-04 18:02:13,168 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=1
+2025-10-04 18:02:13,171 INFO INCOMING_BATCH user=anon-eo9dph9 page=/ events=1
+2025-10-04 18:04:31,166 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=11
+2025-10-04 18:04:31,179 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=11
+2025-10-04 18:04:37,171 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=33
+2025-10-04 18:04:37,188 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-l6vjn53", "page": "/", "signals": ["rage_click", "cursor_thrash"]}, "time": 1759581277.1887474}
+2025-10-04 18:04:37,190 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=33
+2025-10-04 18:04:37,194 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-l6vjn53", "page": "/", "signals": ["rage_click", "cursor_thrash"]}, "time": 1759581277.194133}
+2025-10-04 18:04:39,470 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=12
+2025-10-04 18:04:39,474 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=12
+2025-10-04 18:04:39,477 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-l6vjn53", "page": "/", "signals": ["rage_click", "cursor_thrash"]}, "time": 1759581279.47704}
+2025-10-04 18:04:39,478 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-l6vjn53", "page": "/", "signals": ["rage_click", "cursor_thrash"]}, "time": 1759581279.477948}
+2025-10-04 18:04:43,158 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=30
+2025-10-04 18:04:43,161 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=30
+2025-10-04 18:04:43,163 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-l6vjn53", "page": "/", "signals": ["rage_click", "cursor_thrash"]}, "time": 1759581283.1635275}
+2025-10-04 18:04:43,163 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-l6vjn53", "page": "/", "signals": ["rage_click", "cursor_thrash"]}, "time": 1759581283.1639032}
+2025-10-04 18:04:43,792 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=7
+2025-10-04 18:04:43,809 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=7
+2025-10-04 18:04:43,809 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-l6vjn53", "page": "/", "signals": ["rage_click", "cursor_thrash"]}, "time": 1759581283.809899}
+2025-10-04 18:04:43,812 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-l6vjn53", "page": "/", "signals": ["rage_click", "cursor_thrash"]}, "time": 1759581283.81271}
+2025-10-04 18:04:44,613 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=1
+2025-10-04 18:04:44,616 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=1
+2025-10-04 18:04:44,616 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-l6vjn53", "page": "/", "signals": ["rage_click"]}, "time": 1759581284.6165342}
+2025-10-04 18:04:44,618 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-l6vjn53", "page": "/", "signals": ["rage_click"]}, "time": 1759581284.6184807}
+2025-10-04 18:04:46,170 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=14
+2025-10-04 18:04:46,173 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=14
+2025-10-04 18:04:49,164 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=23
+2025-10-04 18:04:49,167 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=23
+2025-10-04 18:04:52,159 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=3
+2025-10-04 18:04:52,163 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=3
+2025-10-04 18:04:55,158 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=4
+2025-10-04 18:04:55,161 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=4
+2025-10-04 18:06:53,153 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=1
+2025-10-04 18:06:53,157 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=1
+2025-10-04 18:07:33,856 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=17 headers_project_token=True
+2025-10-04 18:07:33,857 INFO ANALYZE user=anon-yit49i1 page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 249.39499999999998, "max_vel": 4628.56, "count_strong": 3, "count_weak": 7, "dir_changes": 5, "has_mousemoves": true}
+2025-10-04 18:07:33,866 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=17 headers_project_token=True
+2025-10-04 18:07:33,867 INFO ANALYZE user=anon-yit49i1 page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 249.39499999999998, "max_vel": 4628.56, "count_strong": 3, "count_weak": 7, "dir_changes": 5, "has_mousemoves": true}
+2025-10-04 18:07:36,861 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=18 headers_project_token=True
+2025-10-04 18:07:36,861 INFO ANALYZE user=anon-yit49i1 page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 483.625, "max_vel": 5000.0, "count_strong": 4, "count_weak": 10, "dir_changes": 27, "has_mousemoves": true}
+2025-10-04 18:07:36,865 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=18 headers_project_token=True
+2025-10-04 18:07:36,865 INFO ANALYZE user=anon-yit49i1 page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 483.625, "max_vel": 5000.0, "count_strong": 4, "count_weak": 10, "dir_changes": 27, "has_mousemoves": true}
+2025-10-04 18:07:39,868 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=28 headers_project_token=True
+2025-10-04 18:07:39,869 INFO ANALYZE user=anon-yit49i1 page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 215.62, "max_vel": 5000.0, "count_strong": 4, "count_weak": 10, "dir_changes": 40, "has_mousemoves": true}
+2025-10-04 18:07:39,871 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=28 headers_project_token=True
+2025-10-04 18:07:39,872 INFO ANALYZE user=anon-yit49i1 page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 215.62, "max_vel": 5000.0, "count_strong": 4, "count_weak": 10, "dir_changes": 40, "has_mousemoves": true}
+2025-10-04 18:07:42,866 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=28 headers_project_token=True
+2025-10-04 18:07:42,867 INFO ANALYZE user=anon-yit49i1 page=/ signals=['rage_click', 'long_hover'] conf=1.0 summary={"median_vel": 49.18, "max_vel": 762.78, "count_strong": 0, "count_weak": 3, "dir_changes": 25, "has_mousemoves": true}
+2025-10-04 18:07:42,885 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=28 headers_project_token=True
+2025-10-04 18:07:42,885 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-yit49i1", "page": "/", "signals": ["rage_click", "long_hover"]}, "time": 1759581462.8856208}
+2025-10-04 18:07:42,886 INFO ANALYZE user=anon-yit49i1 page=/ signals=['rage_click', 'long_hover', 'cursor_thrash'] conf=1.0 summary={"median_vel": 49.18, "max_vel": 762.78, "count_strong": 0, "count_weak": 3, "dir_changes": 25, "has_mousemoves": true}
+2025-10-04 18:07:42,889 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-yit49i1", "page": "/", "signals": ["rage_click", "long_hover", "cursor_thrash"]}, "time": 1759581462.8894308}
+2025-10-04 18:07:45,042 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=29 headers_project_token=True
+2025-10-04 18:07:45,043 INFO ANALYZE user=anon-yit49i1 page=/ signals=['rage_click', 'cursor_thrash'] conf=1.0 summary={"median_vel": 92.825, "max_vel": 2597.97, "count_strong": 1, "count_weak": 1, "dir_changes": 15, "has_mousemoves": true}
+2025-10-04 18:07:45,046 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=29 headers_project_token=True
+2025-10-04 18:07:45,046 INFO ANALYZE user=anon-yit49i1 page=/ signals=['rage_click', 'cursor_thrash'] conf=1.0 summary={"median_vel": 92.825, "max_vel": 2597.97, "count_strong": 1, "count_weak": 1, "dir_changes": 15, "has_mousemoves": true}
+2025-10-04 18:07:45,049 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-yit49i1", "page": "/", "signals": ["rage_click", "cursor_thrash"]}, "time": 1759581465.049256}
+2025-10-04 18:07:45,049 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-yit49i1", "page": "/", "signals": ["rage_click", "cursor_thrash"]}, "time": 1759581465.0497928}
+2025-10-04 18:07:45,213 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=2 headers_project_token=True
+2025-10-04 18:07:45,214 INFO ANALYZE user=anon-yit49i1 page=/ signals=['rage_click'] conf=1.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-04 18:07:45,216 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=2 headers_project_token=True
+2025-10-04 18:07:45,216 INFO ANALYZE user=anon-yit49i1 page=/ signals=['rage_click'] conf=1.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-04 18:07:45,218 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-yit49i1", "page": "/", "signals": ["rage_click"]}, "time": 1759581465.218106}
+2025-10-04 18:07:45,218 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-yit49i1", "page": "/", "signals": ["rage_click"]}, "time": 1759581465.2184212}
+2025-10-04 18:07:45,372 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=2 headers_project_token=True
+2025-10-04 18:07:45,373 INFO ANALYZE user=anon-yit49i1 page=/ signals=['rage_click'] conf=1.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-04 18:07:45,374 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=2 headers_project_token=True
+2025-10-04 18:07:45,375 INFO ANALYZE user=anon-yit49i1 page=/ signals=['rage_click'] conf=1.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-04 18:07:45,376 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-yit49i1", "page": "/", "signals": ["rage_click"]}, "time": 1759581465.3767712}
+2025-10-04 18:07:45,377 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-yit49i1", "page": "/", "signals": ["rage_click"]}, "time": 1759581465.3769333}
+2025-10-04 18:07:45,774 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=1 headers_project_token=True
+2025-10-04 18:07:45,774 INFO ANALYZE user=anon-yit49i1 page=/ signals=['rage_click'] conf=1.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-04 18:07:45,776 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=1 headers_project_token=True
+2025-10-04 18:07:45,776 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-yit49i1", "page": "/", "signals": ["rage_click"]}, "time": 1759581465.7769089}
+2025-10-04 18:07:45,777 INFO ANALYZE user=anon-yit49i1 page=/ signals=['rage_click'] conf=1.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-04 18:07:45,779 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-yit49i1", "page": "/", "signals": ["rage_click"]}, "time": 1759581465.7791588}
+2025-10-04 18:07:45,926 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=2 headers_project_token=True
+2025-10-04 18:07:45,926 INFO ANALYZE user=anon-yit49i1 page=/ signals=['rage_click'] conf=1.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-04 18:07:45,929 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=2 headers_project_token=True
+2025-10-04 18:07:45,929 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-yit49i1", "page": "/", "signals": ["rage_click"]}, "time": 1759581465.9292023}
+2025-10-04 18:07:45,929 INFO ANALYZE user=anon-yit49i1 page=/ signals=['rage_click'] conf=1.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-04 18:07:45,930 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-yit49i1", "page": "/", "signals": ["rage_click"]}, "time": 1759581465.9308136}
+2025-10-04 18:07:46,079 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=2 headers_project_token=True
+2025-10-04 18:07:46,079 INFO ANALYZE user=anon-yit49i1 page=/ signals=['rage_click'] conf=1.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-04 18:07:46,081 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=2 headers_project_token=True
+2025-10-04 18:07:46,081 INFO ANALYZE user=anon-yit49i1 page=/ signals=['rage_click'] conf=1.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-04 18:07:46,082 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-yit49i1", "page": "/", "signals": ["rage_click"]}, "time": 1759581466.082298}
+2025-10-04 18:07:46,082 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-yit49i1", "page": "/", "signals": ["rage_click"]}, "time": 1759581466.0827765}
+2025-10-04 18:07:48,856 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=40 headers_project_token=True
+2025-10-04 18:07:48,857 INFO ANALYZE user=anon-yit49i1 page=/ signals=['rage_click', 'cursor_thrash'] conf=1.0 summary={"median_vel": 192.53, "max_vel": 5000.0, "count_strong": 5, "count_weak": 12, "dir_changes": 78, "has_mousemoves": true}
+2025-10-04 18:07:48,860 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=40 headers_project_token=True
+2025-10-04 18:07:48,861 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-yit49i1", "page": "/", "signals": ["rage_click", "cursor_thrash"]}, "time": 1759581468.8612971}
+2025-10-04 18:07:48,861 INFO ANALYZE user=anon-yit49i1 page=/ signals=['rage_click', 'cursor_thrash'] conf=1.0 summary={"median_vel": 192.53, "max_vel": 5000.0, "count_strong": 5, "count_weak": 12, "dir_changes": 78, "has_mousemoves": true}
+2025-10-04 18:07:48,865 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-yit49i1", "page": "/", "signals": ["rage_click", "cursor_thrash"]}, "time": 1759581468.8653162}
+2025-10-04 18:07:51,862 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=28 headers_project_token=True
+2025-10-04 18:07:51,863 INFO ANALYZE user=anon-yit49i1 page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 138.10500000000002, "max_vel": 5000.0, "count_strong": 3, "count_weak": 10, "dir_changes": 33, "has_mousemoves": true}
+2025-10-04 18:07:51,866 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=28 headers_project_token=True
+2025-10-04 18:07:51,866 INFO ANALYZE user=anon-yit49i1 page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 138.10500000000002, "max_vel": 5000.0, "count_strong": 3, "count_weak": 10, "dir_changes": 33, "has_mousemoves": true}
+2025-10-04 18:07:54,853 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=8 headers_project_token=True
+2025-10-04 18:07:54,854 INFO ANALYZE user=anon-yit49i1 page=/ signals=[] conf=0.0 summary={"median_vel": 61.565, "max_vel": 248.08, "count_strong": 0, "count_weak": 0, "dir_changes": 3, "has_mousemoves": true}
+2025-10-04 18:07:54,857 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=8 headers_project_token=True
+2025-10-04 18:07:54,858 INFO ANALYZE user=anon-yit49i1 page=/ signals=[] conf=0.0 summary={"median_vel": 61.565, "max_vel": 248.08, "count_strong": 0, "count_weak": 0, "dir_changes": 3, "has_mousemoves": true}
+2025-10-04 18:07:57,858 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=7 headers_project_token=True
+2025-10-04 18:07:57,858 INFO ANALYZE user=anon-yit49i1 page=/ signals=[] conf=0.0 summary={"median_vel": 49.18, "max_vel": 119.0, "count_strong": 0, "count_weak": 0, "dir_changes": 16, "has_mousemoves": true}
+2025-10-04 18:07:57,861 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=7 headers_project_token=True
+2025-10-04 18:07:57,861 INFO ANALYZE user=anon-yit49i1 page=/ signals=[] conf=0.0 summary={"median_vel": 49.18, "max_vel": 119.0, "count_strong": 0, "count_weak": 0, "dir_changes": 16, "has_mousemoves": true}
+2025-10-04 18:08:00,865 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=12 headers_project_token=True
+2025-10-04 18:08:00,866 INFO ANALYZE user=anon-yit49i1 page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 131.15, "max_vel": 4000.0, "count_strong": 4, "count_weak": 4, "dir_changes": 30, "has_mousemoves": true}
+2025-10-04 18:08:00,871 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=12 headers_project_token=True
+2025-10-04 18:08:00,872 INFO ANALYZE user=anon-yit49i1 page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 131.15, "max_vel": 4000.0, "count_strong": 4, "count_weak": 4, "dir_changes": 30, "has_mousemoves": true}
+2025-10-04 18:08:03,859 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=6 headers_project_token=True
+2025-10-04 18:08:03,859 INFO ANALYZE user=anon-yit49i1 page=/ signals=[] conf=0.0 summary={"median_vel": 94.28, "max_vel": 923.0, "count_strong": 0, "count_weak": 1, "dir_changes": 12, "has_mousemoves": true}
+2025-10-04 18:08:03,863 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=6 headers_project_token=True
+2025-10-04 18:08:03,863 INFO ANALYZE user=anon-yit49i1 page=/ signals=[] conf=0.0 summary={"median_vel": 94.28, "max_vel": 923.0, "count_strong": 0, "count_weak": 1, "dir_changes": 12, "has_mousemoves": true}
+2025-10-04 18:08:06,857 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=35 headers_project_token=True
+2025-10-04 18:08:06,859 INFO ANALYZE user=anon-yit49i1 page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 229.51, "max_vel": 2148.29, "count_strong": 3, "count_weak": 12, "dir_changes": 56, "has_mousemoves": true}
+2025-10-04 18:08:06,862 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=35 headers_project_token=True
+2025-10-04 18:08:06,863 INFO ANALYZE user=anon-yit49i1 page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 229.51, "max_vel": 2148.29, "count_strong": 3, "count_weak": 12, "dir_changes": 56, "has_mousemoves": true}
+2025-10-04 18:08:12,857 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=12 headers_project_token=True
+2025-10-04 18:08:12,858 INFO ANALYZE user=anon-yit49i1 page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 495.435, "max_vel": 2076.32, "count_strong": 2, "count_weak": 8, "dir_changes": 23, "has_mousemoves": true}
+2025-10-04 18:08:12,862 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=12 headers_project_token=True
+2025-10-04 18:08:12,863 INFO ANALYZE user=anon-yit49i1 page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 495.435, "max_vel": 2076.32, "count_strong": 2, "count_weak": 8, "dir_changes": 23, "has_mousemoves": true}
+2025-10-04 18:08:15,859 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=36 headers_project_token=True
+2025-10-04 18:08:15,861 INFO ANALYZE user=anon-yit49i1 page=/ signals=['cursor_thrash'] conf=0.708 summary={"median_vel": 164.825, "max_vel": 1274.19, "count_strong": 1, "count_weak": 14, "dir_changes": 36, "has_mousemoves": true}
+2025-10-04 18:08:15,867 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=36 headers_project_token=True
+2025-10-04 18:08:15,869 INFO ANALYZE user=anon-yit49i1 page=/ signals=['cursor_thrash'] conf=0.708 summary={"median_vel": 164.825, "max_vel": 1274.19, "count_strong": 1, "count_weak": 14, "dir_changes": 36, "has_mousemoves": true}
+2025-10-04 18:08:18,870 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=3 headers_project_token=True
+2025-10-04 18:08:18,873 INFO ANALYZE user=anon-yit49i1 page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 2591.6299999999997, "max_vel": 4966.86, "count_strong": 1, "count_weak": 1, "dir_changes": 2, "has_mousemoves": true}
+2025-10-04 18:08:18,878 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=3 headers_project_token=True
+2025-10-04 18:08:18,879 INFO ANALYZE user=anon-yit49i1 page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 2591.6299999999997, "max_vel": 4966.86, "count_strong": 1, "count_weak": 1, "dir_changes": 2, "has_mousemoves": true}
+2025-10-04 18:08:21,861 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=2 headers_project_token=True
+2025-10-04 18:08:21,862 INFO ANALYZE user=anon-yit49i1 page=/ signals=[] conf=0.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-04 18:08:21,865 INFO INCOMING_BATCH user=anon-yit49i1 page=/ events=2 headers_project_token=True
+2025-10-04 18:08:21,866 INFO ANALYZE user=anon-yit49i1 page=/ signals=[] conf=0.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-04 18:09:39,212 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=3 headers_project_token=True
+2025-10-04 18:09:39,213 INFO ANALYZE user=anon-l6vjn53 page=/ signals=[] conf=0.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-04 18:09:39,216 INFO INCOMING_BATCH user=anon-l6vjn53 page=/ events=3 headers_project_token=True
+2025-10-04 18:09:39,217 INFO ANALYZE user=anon-l6vjn53 page=/ signals=[] conf=0.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-05 16:35:00,607 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=27 headers_project_token=True
+2025-10-05 16:35:00,608 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 567.45, "max_vel": 1866.65, "count_strong": 9, "count_weak": 15, "dir_changes": 20, "has_mousemoves": true}
+2025-10-05 16:35:00,610 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=27 headers_project_token=True
+2025-10-05 16:35:00,611 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 567.45, "max_vel": 1866.65, "count_strong": 9, "count_weak": 15, "dir_changes": 20, "has_mousemoves": true}
+2025-10-05 16:35:03,596 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=5 headers_project_token=True
+2025-10-05 16:35:03,597 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 1165.02, "max_vel": 5000.0, "count_strong": 2, "count_weak": 3, "dir_changes": 5, "has_mousemoves": true}
+2025-10-05 16:35:03,599 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=5 headers_project_token=True
+2025-10-05 16:35:03,600 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 1165.02, "max_vel": 5000.0, "count_strong": 2, "count_weak": 3, "dir_changes": 5, "has_mousemoves": true}
+2025-10-05 16:35:06,603 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=19 headers_project_token=True
+2025-10-05 16:35:06,603 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 143.37, "max_vel": 3605.55, "count_strong": 1, "count_weak": 5, "dir_changes": 41, "has_mousemoves": true}
+2025-10-05 16:35:06,605 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=19 headers_project_token=True
+2025-10-05 16:35:06,606 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 143.37, "max_vel": 3605.55, "count_strong": 1, "count_weak": 5, "dir_changes": 41, "has_mousemoves": true}
+2025-10-05 16:35:18,599 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=2 headers_project_token=True
+2025-10-05 16:35:18,600 INFO ANALYZE user=anon-xyho9cc page=/ signals=[] conf=0.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-05 16:35:18,603 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=2 headers_project_token=True
+2025-10-05 16:35:18,603 INFO ANALYZE user=anon-xyho9cc page=/ signals=[] conf=0.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-05 16:35:21,597 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=28 headers_project_token=True
+2025-10-05 16:35:21,598 INFO ANALYZE user=anon-xyho9cc page=/ signals=['long_hover', 'rage_click', 'cursor_thrash'] conf=1.0 summary={"median_vel": 124.85, "max_vel": 3162.28, "count_strong": 3, "count_weak": 5, "dir_changes": 58, "has_mousemoves": true}
+2025-10-05 16:35:21,613 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=28 headers_project_token=True
+2025-10-05 16:35:21,613 INFO ANALYZE user=anon-xyho9cc page=/ signals=['long_hover', 'rage_click', 'cursor_thrash'] conf=1.0 summary={"median_vel": 124.85, "max_vel": 3162.28, "count_strong": 3, "count_weak": 5, "dir_changes": 58, "has_mousemoves": true}
+2025-10-05 16:35:21,616 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-xyho9cc", "page": "/", "signals": ["long_hover", "rage_click", "cursor_thrash"]}, "time": 1759662321.6167443}
+2025-10-05 16:35:21,617 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-xyho9cc", "page": "/", "signals": ["long_hover", "rage_click", "cursor_thrash"]}, "time": 1759662321.6175165}
+2025-10-05 16:35:24,596 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=12 headers_project_token=True
+2025-10-05 16:35:24,597 INFO ANALYZE user=anon-xyho9cc page=/ signals=['long_hover', 'cursor_thrash'] conf=1.0 summary={"median_vel": 393.30499999999995, "max_vel": 5000.0, "count_strong": 1, "count_weak": 7, "dir_changes": 18, "has_mousemoves": true}
+2025-10-05 16:35:24,598 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=12 headers_project_token=True
+2025-10-05 16:35:24,599 INFO ANALYZE user=anon-xyho9cc page=/ signals=['long_hover', 'cursor_thrash'] conf=1.0 summary={"median_vel": 393.30499999999995, "max_vel": 5000.0, "count_strong": 1, "count_weak": 7, "dir_changes": 18, "has_mousemoves": true}
+2025-10-05 16:35:24,600 INFO EXECUTE_ACTION (simulated): {"action": "enable_help_tooltip", "context": {"userId": "anon-xyho9cc", "page": "/", "signals": ["long_hover", "cursor_thrash"]}, "time": 1759662324.6004055}
+2025-10-05 16:35:24,600 INFO EXECUTE_ACTION (simulated): {"action": "enable_help_tooltip", "context": {"userId": "anon-xyho9cc", "page": "/", "signals": ["long_hover", "cursor_thrash"]}, "time": 1759662324.6004946}
+2025-10-05 16:35:27,596 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=43 headers_project_token=True
+2025-10-05 16:35:27,597 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 149.56, "max_vel": 5000.0, "count_strong": 2, "count_weak": 9, "dir_changes": 54, "has_mousemoves": true}
+2025-10-05 16:35:27,599 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=43 headers_project_token=True
+2025-10-05 16:35:27,599 INFO ANALYZE user=anon-xyho9cc page=/ signals=['rage_click', 'cursor_thrash'] conf=1.0 summary={"median_vel": 149.56, "max_vel": 5000.0, "count_strong": 2, "count_weak": 9, "dir_changes": 54, "has_mousemoves": true}
+2025-10-05 16:35:27,601 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-xyho9cc", "page": "/", "signals": ["rage_click", "cursor_thrash"]}, "time": 1759662327.601012}
+2025-10-05 16:35:30,595 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=33 headers_project_token=True
+2025-10-05 16:35:30,596 INFO ANALYZE user=anon-xyho9cc page=/ signals=['rage_click', 'long_hover', 'cursor_thrash'] conf=1.0 summary={"median_vel": 1425.67, "max_vel": 4779.7, "count_strong": 4, "count_weak": 5, "dir_changes": 11, "has_mousemoves": true}
+2025-10-05 16:35:30,598 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=33 headers_project_token=True
+2025-10-05 16:35:30,599 INFO ANALYZE user=anon-xyho9cc page=/ signals=['rage_click', 'long_hover', 'cursor_thrash'] conf=1.0 summary={"median_vel": 1425.67, "max_vel": 4779.7, "count_strong": 4, "count_weak": 5, "dir_changes": 11, "has_mousemoves": true}
+2025-10-05 16:35:30,601 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-xyho9cc", "page": "/", "signals": ["rage_click", "long_hover", "cursor_thrash"]}, "time": 1759662330.6010966}
+2025-10-05 16:35:30,601 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-xyho9cc", "page": "/", "signals": ["rage_click", "long_hover", "cursor_thrash"]}, "time": 1759662330.6012137}
+2025-10-05 16:35:33,600 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=55 headers_project_token=True
+2025-10-05 16:35:33,600 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 4800.82, "max_vel": 5000.0, "count_strong": 51, "count_weak": 52, "dir_changes": 163, "has_mousemoves": true}
+2025-10-05 16:35:33,603 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=55 headers_project_token=True
+2025-10-05 16:35:33,604 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 4800.82, "max_vel": 5000.0, "count_strong": 51, "count_weak": 52, "dir_changes": 163, "has_mousemoves": true}
+2025-10-05 16:35:36,596 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=56 headers_project_token=True
+2025-10-05 16:35:36,596 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 5000.0, "max_vel": 5000.0, "count_strong": 49, "count_weak": 53, "dir_changes": 166, "has_mousemoves": true}
+2025-10-05 16:35:36,599 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=56 headers_project_token=True
+2025-10-05 16:35:36,599 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 5000.0, "max_vel": 5000.0, "count_strong": 49, "count_weak": 53, "dir_changes": 166, "has_mousemoves": true}
+2025-10-05 16:35:39,599 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=50 headers_project_token=True
+2025-10-05 16:35:39,600 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 4899.25, "max_vel": 5000.0, "count_strong": 37, "count_weak": 41, "dir_changes": 145, "has_mousemoves": true}
+2025-10-05 16:35:39,602 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=50 headers_project_token=True
+2025-10-05 16:35:39,602 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 4899.25, "max_vel": 5000.0, "count_strong": 37, "count_weak": 41, "dir_changes": 145, "has_mousemoves": true}
+2025-10-05 16:35:39,880 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=3 headers_project_token=True
+2025-10-05 16:35:39,880 INFO ANALYZE user=anon-xyho9cc page=/ signals=[] conf=0.0 summary={"median_vel": 61.415, "max_vel": 70.99, "count_strong": 0, "count_weak": 0, "dir_changes": 6, "has_mousemoves": true}
+2025-10-05 16:35:39,883 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=3 headers_project_token=True
+2025-10-05 16:35:39,883 INFO ANALYZE user=anon-xyho9cc page=/ signals=[] conf=0.0 summary={"median_vel": 61.415, "max_vel": 70.99, "count_strong": 0, "count_weak": 0, "dir_changes": 6, "has_mousemoves": true}
+2025-10-05 16:35:42,093 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=24 headers_project_token=True
+2025-10-05 16:35:42,094 INFO ANALYZE user=anon-xyho9cc page=/ signals=['rage_click', 'cursor_thrash'] conf=1.0 summary={"median_vel": 113.37, "max_vel": 5000.0, "count_strong": 2, "count_weak": 6, "dir_changes": 21, "has_mousemoves": true}
+2025-10-05 16:35:42,097 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=24 headers_project_token=True
+2025-10-05 16:35:42,097 INFO ANALYZE user=anon-xyho9cc page=/ signals=['rage_click', 'cursor_thrash'] conf=1.0 summary={"median_vel": 113.37, "max_vel": 5000.0, "count_strong": 2, "count_weak": 6, "dir_changes": 21, "has_mousemoves": true}
+2025-10-05 16:35:42,099 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-xyho9cc", "page": "/", "signals": ["rage_click", "cursor_thrash"]}, "time": 1759662342.099106}
+2025-10-05 16:35:42,099 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-xyho9cc", "page": "/", "signals": ["rage_click", "cursor_thrash"]}, "time": 1759662342.0997062}
+2025-10-05 16:35:45,609 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=27 headers_project_token=True
+2025-10-05 16:35:45,610 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 272.13, "max_vel": 5000.0, "count_strong": 3, "count_weak": 10, "dir_changes": 32, "has_mousemoves": true}
+2025-10-05 16:35:45,612 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=27 headers_project_token=True
+2025-10-05 16:35:45,612 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 272.13, "max_vel": 5000.0, "count_strong": 3, "count_weak": 10, "dir_changes": 32, "has_mousemoves": true}
+2025-10-05 16:35:48,596 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=36 headers_project_token=True
+2025-10-05 16:35:48,597 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 99.72, "max_vel": 5000.0, "count_strong": 2, "count_weak": 12, "dir_changes": 23, "has_mousemoves": true}
+2025-10-05 16:35:48,599 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=36 headers_project_token=True
+2025-10-05 16:35:48,599 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 99.72, "max_vel": 5000.0, "count_strong": 2, "count_weak": 12, "dir_changes": 23, "has_mousemoves": true}
+2025-10-05 16:35:51,600 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=20 headers_project_token=True
+2025-10-05 16:35:51,601 INFO ANALYZE user=anon-xyho9cc page=/ signals=[] conf=0.0 summary={"median_vel": 175.95, "max_vel": 384.11, "count_strong": 0, "count_weak": 3, "dir_changes": 11, "has_mousemoves": true}
+2025-10-05 16:35:51,603 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=20 headers_project_token=True
+2025-10-05 16:35:51,603 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=0.9 summary={"median_vel": 175.95, "max_vel": 384.11, "count_strong": 0, "count_weak": 3, "dir_changes": 11, "has_mousemoves": true}
+2025-10-05 16:35:54,604 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=9 headers_project_token=True
+2025-10-05 16:35:54,605 INFO ANALYZE user=anon-xyho9cc page=/ signals=['rage_click'] conf=1.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-05 16:35:54,607 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=9 headers_project_token=True
+2025-10-05 16:35:54,607 INFO ANALYZE user=anon-xyho9cc page=/ signals=['rage_click'] conf=1.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-05 16:35:54,608 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-xyho9cc", "page": "/", "signals": ["rage_click"]}, "time": 1759662354.6087906}
+2025-10-05 16:35:54,609 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-xyho9cc", "page": "/", "signals": ["rage_click"]}, "time": 1759662354.6094086}
+2025-10-05 16:36:00,605 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=11 headers_project_token=True
+2025-10-05 16:36:00,606 INFO ANALYZE user=anon-xyho9cc page=/ signals=['long_hover', 'cursor_thrash'] conf=1.0 summary={"median_vel": 1796.855, "max_vel": 3744.78, "count_strong": 6, "count_weak": 8, "dir_changes": 16, "has_mousemoves": true}
+2025-10-05 16:36:00,608 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=11 headers_project_token=True
+2025-10-05 16:36:00,608 INFO ANALYZE user=anon-xyho9cc page=/ signals=['long_hover', 'cursor_thrash'] conf=1.0 summary={"median_vel": 1796.855, "max_vel": 3744.78, "count_strong": 6, "count_weak": 8, "dir_changes": 16, "has_mousemoves": true}
+2025-10-05 16:36:00,609 INFO EXECUTE_ACTION (simulated): {"action": "enable_help_tooltip", "context": {"userId": "anon-xyho9cc", "page": "/", "signals": ["long_hover", "cursor_thrash"]}, "time": 1759662360.6098628}
+2025-10-05 16:36:00,610 INFO EXECUTE_ACTION (simulated): {"action": "enable_help_tooltip", "context": {"userId": "anon-xyho9cc", "page": "/", "signals": ["long_hover", "cursor_thrash"]}, "time": 1759662360.6099784}
+2025-10-05 16:36:03,596 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=9 headers_project_token=True
+2025-10-05 16:36:03,597 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 370.97, "max_vel": 5000.0, "count_strong": 3, "count_weak": 5, "dir_changes": 10, "has_mousemoves": true}
+2025-10-05 16:36:03,599 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=9 headers_project_token=True
+2025-10-05 16:36:03,599 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 370.97, "max_vel": 5000.0, "count_strong": 3, "count_weak": 5, "dir_changes": 10, "has_mousemoves": true}
+2025-10-05 16:36:09,596 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=4 headers_project_token=True
+2025-10-05 16:36:09,597 INFO ANALYZE user=anon-xyho9cc page=/ signals=[] conf=0.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-05 16:36:09,599 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=4 headers_project_token=True
+2025-10-05 16:36:09,599 INFO ANALYZE user=anon-xyho9cc page=/ signals=[] conf=0.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-05 16:36:12,606 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=2 headers_project_token=True
+2025-10-05 16:36:12,606 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 1077.71, "max_vel": 2059.73, "count_strong": 1, "count_weak": 1, "dir_changes": 3, "has_mousemoves": true}
+2025-10-05 16:36:12,608 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=2 headers_project_token=True
+2025-10-05 16:36:12,609 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 1077.71, "max_vel": 2059.73, "count_strong": 1, "count_weak": 1, "dir_changes": 3, "has_mousemoves": true}
+2025-10-05 16:36:15,604 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=19 headers_project_token=True
+2025-10-05 16:36:15,604 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 959.4, "max_vel": 5000.0, "count_strong": 5, "count_weak": 11, "dir_changes": 31, "has_mousemoves": true}
+2025-10-05 16:36:15,606 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=19 headers_project_token=True
+2025-10-05 16:36:15,607 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 959.4, "max_vel": 5000.0, "count_strong": 5, "count_weak": 11, "dir_changes": 31, "has_mousemoves": true}
+2025-10-05 16:36:19,080 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=3 headers_project_token=True
+2025-10-05 16:36:19,081 INFO ANALYZE user=anon-xyho9cc page=/ signals=[] conf=0.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-05 16:36:19,083 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=3 headers_project_token=True
+2025-10-05 16:36:19,083 INFO ANALYZE user=anon-xyho9cc page=/ signals=[] conf=0.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-05 16:55:41,083 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=1 headers_project_token=True
+2025-10-05 16:55:41,083 INFO ANALYZE user=anon-xyho9cc page=/ signals=[] conf=0.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-05 16:55:41,087 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=1 headers_project_token=True
+2025-10-05 16:55:41,088 INFO ANALYZE user=anon-xyho9cc page=/ signals=[] conf=0.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-05 16:57:31,094 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=1 headers_project_token=True
+2025-10-05 16:57:31,095 INFO ANALYZE user=anon-xyho9cc page=/ signals=[] conf=0.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-05 16:57:31,099 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=1 headers_project_token=True
+2025-10-05 16:57:31,099 INFO ANALYZE user=anon-xyho9cc page=/ signals=[] conf=0.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-05 16:58:21,608 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=1 headers_project_token=True
+2025-10-05 16:58:21,609 INFO ANALYZE user=anon-xyho9cc page=/ signals=[] conf=0.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-05 16:58:21,612 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=1 headers_project_token=True
+2025-10-05 16:58:21,613 INFO ANALYZE user=anon-xyho9cc page=/ signals=[] conf=0.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-05 16:58:42,616 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=4 headers_project_token=True
+2025-10-05 16:58:42,617 INFO ANALYZE user=anon-xyho9cc page=/ signals=[] conf=0.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-05 16:58:42,620 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=4 headers_project_token=True
+2025-10-05 16:58:42,622 INFO ANALYZE user=anon-xyho9cc page=/ signals=[] conf=0.0 summary={"median_vel": 0.0, "max_vel": 0.0, "count_strong": 0, "count_weak": 0, "dir_changes": 0, "has_mousemoves": false}
+2025-10-05 16:58:45,608 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=3 headers_project_token=True
+2025-10-05 16:58:45,609 INFO ANALYZE user=anon-xyho9cc page=/ signals=[] conf=0.0 summary={"median_vel": 0.51, "max_vel": 0.51, "count_strong": 0, "count_weak": 0, "dir_changes": 3, "has_mousemoves": true}
+2025-10-05 16:58:45,611 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=3 headers_project_token=True
+2025-10-05 16:58:45,613 INFO ANALYZE user=anon-xyho9cc page=/ signals=[] conf=0.0 summary={"median_vel": 0.51, "max_vel": 0.51, "count_strong": 0, "count_weak": 0, "dir_changes": 3, "has_mousemoves": true}
+2025-10-05 16:58:48,114 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=33 headers_project_token=True
+2025-10-05 16:58:48,115 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 83.33, "max_vel": 1942.19, "count_strong": 3, "count_weak": 10, "dir_changes": 37, "has_mousemoves": true}
+2025-10-05 16:58:48,119 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=33 headers_project_token=True
+2025-10-05 16:58:48,120 INFO ANALYZE user=anon-xyho9cc page=/ signals=['rage_click', 'cursor_thrash'] conf=1.0 summary={"median_vel": 83.33, "max_vel": 1942.19, "count_strong": 3, "count_weak": 10, "dir_changes": 37, "has_mousemoves": true}
+2025-10-05 16:58:48,123 INFO EXECUTE_ACTION (simulated): {"action": "restart_service", "context": {"userId": "anon-xyho9cc", "page": "/", "signals": ["rage_click", "cursor_thrash"]}, "time": 1759663728.1232896}
+2025-10-05 16:58:51,612 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=18 headers_project_token=True
+2025-10-05 16:58:51,613 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 494.47, "max_vel": 5000.0, "count_strong": 3, "count_weak": 6, "dir_changes": 21, "has_mousemoves": true}
+2025-10-05 16:58:51,620 INFO INCOMING_BATCH user=anon-xyho9cc page=/ events=18 headers_project_token=True
+2025-10-05 16:58:51,621 INFO ANALYZE user=anon-xyho9cc page=/ signals=['cursor_thrash'] conf=1.0 summary={"median_vel": 494.47, "max_vel": 5000.0, "count_strong": 3, "count_weak": 6, "dir_changes": 21, "has_mousemoves": true}

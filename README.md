@@ -61,14 +61,17 @@ every 3s)                        • cursor_thrash                 batch
 
 ## Screenshots
 
-**Frontend detecting a live `cursor_thrash` signal:**
-![Frontend demo panel](docs/screenshots/demo-panel.png)
+**Frontend detecting a live `rage_click` + `cursor_thrash` batch, with a real triggered action:**
+![Frontend demo panel](screenshots/demo-page.png)
 
-**Backend logs showing real-time detection:**
-![Backend logs](docs/screenshots/backend-logs.png)
+**Backend logs showing real-time detection on real browser interaction:**
+![Backend logs](screenshots/backend-logs.png)
 
-**Signal frequency analysis (`analyze.py` output):**
-![Signal frequency chart](docs/screenshots/signal_frequency.png)
+**`analyze.py` summary output:**
+![Analyze output](screenshots/analyze-output.png)
+
+**Signal frequency over time (`analyze.py` chart):**
+![Signal frequency chart](screenshots/signal_frequency.png)
 
 
 ## Project structure

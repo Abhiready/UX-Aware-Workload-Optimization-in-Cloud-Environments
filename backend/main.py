@@ -6,6 +6,9 @@ from collections import defaultdict, deque
 from fastapi.middleware.cors import CORSMiddleware
 import time, logging, json, os
 import statistics
+import requests
+import sqlite3
+from contextlib import contextmanager
 
 # ---------------- CONFIG ----------------
 API_KEY = os.getenv("API_KEY")        # optional API key protection (set to "MY_DEMO_KEY" if using)
@@ -18,6 +21,8 @@ THRASH_DIRCHANGE_MIN = 2              # direction-changes threshold supporting t
 THRASH_MEMORY_WINDOW = 8.0            # seconds to keep weak-thrash evidence per user
 THRASH_MEMORY_REQUIRED = 2            # number of recent batches with evidence to elevate to thrash
 LONG_HOVER_MS = 3000                  # dwell threshold for 'long_hover'
+AZURE_SCALING_ENDPOINT = "https://management.azure.com/mock/scale"  # conceptual endpoint
+DB_PATH = "ux_events.db"              # structured analytics store (SQLite)
 # ----------------------------------------
 
 # Logging setup
@@ -30,6 +35,70 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger("backend")
+
+# -------- Structured analytics store (SQLite) --------
+# Purpose: the text log (events_and_actions.log) is fine for debugging, but not
+# queryable. This table records one row per analyzed batch so we can later run
+# aggregate analysis (signal frequency over time, per-user rates, etc.) with pandas/SQL.
+def init_db():
+    conn = sqlite3.connect(DB_PATH)
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS batch_analysis (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            received_at REAL,       -- server-side wall clock when analyzed
+            batch_ts REAL,          -- client-reported batch timestamp (normalized, seconds)
+            user_id TEXT,
+            page TEXT,
+            num_events INTEGER,
+            frustration_detected INTEGER,  -- 0/1
+            signals TEXT,           -- JSON list, e.g. ["rage_click"]
+            confidence REAL,
+            action TEXT,            -- nullable
+            median_vel REAL,
+            max_vel REAL,
+            dir_changes INTEGER
+        )
+    """)
+    conn.commit()
+    conn.close()
+
+@contextmanager
+def db_conn():
+    conn = sqlite3.connect(DB_PATH)
+    try:
+        yield conn
+    finally:
+        conn.close()
+
+def record_batch_analysis(payload: "BatchPayload", result: dict, movement_summary: dict, batch_ts: float):
+    try:
+        with db_conn() as conn:
+            conn.execute(
+                """INSERT INTO batch_analysis
+                   (received_at, batch_ts, user_id, page, num_events, frustration_detected,
+                    signals, confidence, action, median_vel, max_vel, dir_changes)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                (
+                    time.time(),
+                    batch_ts,
+                    payload.userId,
+                    payload.page,
+                    len(payload.events),
+                    1 if result.get("frustrationDetected") else 0,
+                    json.dumps(result.get("signals", [])),
+                    result.get("confidence", 0.0),
+                    result.get("action"),
+                    movement_summary.get("median_vel", 0.0),
+                    movement_summary.get("max_vel", 0.0),
+                    movement_summary.get("dir_changes", 0),
+                ),
+            )
+            conn.commit()
+    except Exception as e:
+        # Analytics logging must never break the live detection path.
+        logger.error("[DB LOG ERROR] %s", str(e))
+
+init_db()
 
 app = FastAPI(title="Real-time Frustration Detector (Backend)")
 
@@ -87,12 +156,48 @@ def decide_action(signals: List[str]) -> Optional[str]:
     return None
 
 def execute_action_simulation(action: str, context: dict):
-    """Simulate corrective actions and log them (safe)."""
+    """
+    Simulates corrective actions such as scaling cloud resources.
+    This demonstrates how the backend could integrate with Azure's
+    autoscaling API when frustration signals are detected.
+    """
     log_entry = {
         "action": action,
         "context": context,
         "time": time.time()
     }
+
+    # --- Conceptual Azure API Integration (simulation) ---
+    try:
+        if action == "restart_service":
+            logger.info("[AZURE] Simulating scale-up trigger to Azure Cloud...")
+
+            # Simulated payload that would be sent to Azure
+            scale_payload = {
+                "subscriptionId": "demo-sub-id",
+                "resourceGroup": "ux-aware-system",
+                "action": "scale_up",
+                "targetInstances": 2,
+                "reason": "User frustration detected",
+                "timestamp": time.time()
+            }
+
+            # Log locally (in real Azure integration, this would use requests.post)
+            logger.info("[AZURE MOCK CALL] POST %s payload=%s", AZURE_SCALING_ENDPOINT, json.dumps(scale_payload))
+
+            # Optional: uncomment if using real Azure REST API
+            # response = requests.post(AZURE_SCALING_ENDPOINT, json=scale_payload, headers={"Authorization": "Bearer <TOKEN>"})
+            # logger.info("[AZURE RESPONSE] %s", response.text)
+
+        elif action == "enable_help_tooltip":
+            logger.info("[UX ACTION] Triggering contextual help tooltip...")
+
+        else:
+            logger.info("[ACTION] Executing default simulation...")
+
+    except Exception as e:
+        logger.error("[AZURE SIMULATION ERROR] %s", str(e))
+
     logger.info("EXECUTE_ACTION (simulated): %s", json.dumps(log_entry))
 
 # ---------- Thrash detection helpers ----------
@@ -236,12 +341,18 @@ def analyze_batch(payload: BatchPayload) -> Dict[str, Any]:
     # Decide action if any
     action = decide_action(signals) if frustration else None
 
-    return {
+    result = {
         "frustrationDetected": frustration,
         "signals": signals,
         "confidence": overall_conf,
         "action": action
     }
+
+    # Structured analytics record — separate from the live detection path so a
+    # DB error can never break the response to the frontend.
+    record_batch_analysis(payload, result, movement_summary, batch_ts)
+
+    return result
 
 # -------- API endpoints --------
 @app.post("/api/events")
@@ -282,3 +393,32 @@ async def receive_events(
 @app.get("/")
 async def root():
     return {"message": "Backend is running!"}
+
+@app.get("/api/stats")
+async def get_stats():
+    """
+    Aggregate stats over all recorded batches: total batches, frustration rate,
+    per-signal counts, and per-user breakdown. Backed by the SQLite analytics
+    store (ux_events.db), separate from the live detection path.
+    """
+    with db_conn() as conn:
+        conn.row_factory = sqlite3.Row
+        rows = conn.execute("SELECT * FROM batch_analysis").fetchall()
+
+    total = len(rows)
+    frustrated = sum(1 for r in rows if r["frustration_detected"])
+    signal_counts: Dict[str, int] = defaultdict(int)
+    per_user: Dict[str, int] = defaultdict(int)
+
+    for r in rows:
+        for sig in json.loads(r["signals"] or "[]"):
+            signal_counts[sig] += 1
+        per_user[r["user_id"]] += 1
+
+    return {
+        "total_batches": total,
+        "frustrated_batches": frustrated,
+        "frustration_rate": round(frustrated / total, 3) if total else 0.0,
+        "signal_counts": dict(signal_counts),
+        "batches_per_user": dict(per_user),
+    }

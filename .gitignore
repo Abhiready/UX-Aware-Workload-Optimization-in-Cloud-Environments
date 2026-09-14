@@ -1,0 +1,9 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+backend/ux_events.db
+backend/events_and_actions.log
+frontend/events_and_actions.log
+desktop.ini
+.venv/
